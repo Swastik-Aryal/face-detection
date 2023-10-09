@@ -1,12 +1,33 @@
-This is a face detection software which uses opencv ( python module ) to detect human faces and encloses them inside a green box.
+# About
+
+This is a face detection software which detects human faces and encloses them inside a green box.
 
 
-Before accessing the file make sure to have opencv installed on your PC.
+## Installation
 
-For this, you can either use the command 
+Navigate to the directory where you want to save this file.
 
-" pip install opencv-python "  OR " pip install opencv-contrib-python"
+Clone this repo with 
 
-in your terminal.
+```bash
+  git clone https://github.com/Swastik-Aryal/face-detection.git
+```
+    
+## Requirements
 
-ENJOYY!!
+Install the required modules using
+
+```bash
+  pip install opencv-python
+```
+OR
+```bash
+  pip install opencv-contrib-python
+```
+
+## Customizations
+
+You can play around with the ``scaleFactor`` and ```minNeighbors``` values in the
+```face_detect``` function of the
+```Face_Detection.py``` file to alter the accuracy and extent of the program.
+
